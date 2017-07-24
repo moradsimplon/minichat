@@ -1,0 +1,19 @@
+main {
+  margin: 0 auto;
+  border: 1px solid #000;
+  width: 60%;
+  height: 550px;
+  margin-top: 2%;
+}
+.affichage{
+  border: 1px solid green;
+  width: 80%;
+height: 400px;
+margin: 0 auto;
+margin-top: 10%;
+background: lightgreen;
+}
+form{
+  margin: 0 auto;
+  margin-top: 2%;
+}
