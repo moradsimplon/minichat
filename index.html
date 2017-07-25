@@ -6,21 +6,45 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
-
+         <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+      <main>
+        <section class="container">
+<h1>chatte.com</h1>
+<img class="d-flex justify-content-center"src="img/images.png" alt="logo">
+<div class="parent row">
+<aside class="col-4 utilisateur container">
+  <div class="col-12 rokko">
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+  <img src="img/roko.jpg" alt="avatar">
+  <strong>rokko ( en ligne)</strong>
+</div>
+<div class="col-12">
+
+  <img src="img/eva.jpg" alt="avatar">
+  <strong>eva longorian (en ligne)</strong>
+</div>
+
+</aside>
+        <div class="col-8"id="affichage">
+
+
+      </div>
+    </div>
+
+    </section>
+        <form class="envoi d-flex justify-content-center" method="post">
+          <textarea id="messageEnvoyer" placeholder="chatter"></textarea>
+          <button class="btn">envoyez</button>
+        </form>
+      </main>
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
